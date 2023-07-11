@@ -64,7 +64,7 @@ function App() {
       </div>
       <Navbars />
       <ScrollToTop isVisible={isVisible} />
-      <div className="  allpage  dark:bg-neutral-900 bg-stone-100   ">
+      <div   className="  allpage  dark:bg-neutral-900 bg-stone-100   ">
         <ScrollStartTop />
         <Routes>
           <Route path="/" element={<Home />} />

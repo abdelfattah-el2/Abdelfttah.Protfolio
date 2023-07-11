@@ -93,7 +93,12 @@ function Navbars() {
               </IconButton>{" "}
             </div>
           ) : null}
-          <Link to={"/"}>
+          <Link
+            to={"/"}
+            onClick={() => {
+              setClose(true);
+            }}
+          >
             <h1 className=" font-bold mb-7 p-3 text-2xl text-center tracking-wide dark:text-slate-50 uppercase">
               Abdelfattah
             </h1>
@@ -110,6 +115,9 @@ function Navbars() {
                 <Link
                   to={"/"}
                   className="flex items-center text-lg font-medium"
+                  onClick={() => {
+                    setClose(true);
+                  }}
                 >
                   <HomeIcon className=" mr-2" fontSize={"small"} /> Home
                 </Link>
@@ -121,7 +129,13 @@ function Navbars() {
                     : " dark:text-slate-300/75 text-zinc-700/80 p-3 hover:tracking-wider hover:duration-300 hover:ml-2"
                 }
               >
-                <Link to={"/about"} className="flex items-center font-medium">
+                <Link
+                  to={"/about"}
+                  onClick={() => {
+                    setClose(true);
+                  }}
+                  className="flex items-center font-medium"
+                >
                   <PersonIcon className=" mr-2" fontSize={"small"} /> About
                 </Link>
               </li>
@@ -132,7 +146,13 @@ function Navbars() {
                     : " dark:text-slate-300/75 text-zinc-700/80 p-3 hover:tracking-wider hover:duration-300 hover:ml-2"
                 }
               >
-                <Link to={"/service"} className="flex items-center font-medium">
+                <Link
+                  to={"/service"}
+                  onClick={() => {
+                    setClose(true);
+                  }}
+                  className="flex items-center font-medium"
+                >
                   <SettingsIcon className=" mr-2" fontSize={"small"} /> Service
                 </Link>
               </li>
@@ -144,6 +164,9 @@ function Navbars() {
                 }
               >
                 <Link
+                  onClick={() => {
+                    setClose(true);
+                  }}
                   to={"/portfolio"}
                   className="flex items-center font-medium"
                 >
@@ -161,7 +184,13 @@ function Navbars() {
                     : " dark:text-slate-300/75 text-zinc-700/80 p-3 hover:tracking-wider hover:duration-300 hover:ml-2"
                 }
               >
-                <Link to={"/contact"} className="flex items-center font-medium">
+                <Link
+                  onClick={() => {
+                    setClose(true);
+                  }}
+                  to={"/contact"}
+                  className="flex items-center font-medium"
+                >
                   <EmailIcon className=" mr-2" fontSize={"small"} /> Contact
                 </Link>
               </li>
