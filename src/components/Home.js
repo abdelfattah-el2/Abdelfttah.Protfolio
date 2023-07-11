@@ -50,12 +50,12 @@ function Home() {
             <div>
               <ul className=" flex  justify-center  md:justify-normal">
                 <li className="dark:text-slate-50 ml-1 p-1 hover:dark:text-zinc-400 hover:-translate-y-2 hover:duration-500 hover:text-gray-800/95 cursor-pointer ">
-                  <a href="https://instagram.com/leidouwu?igshid=OTJlNzQ0NWM=">
+                  <a href="https://instagram.com/abdelfattah.walead?igshid=NjIwNzIyMDk2Mg==">
                     <InstagramIcon />
                   </a>
                 </li>
                 <li className="dark:text-slate-50 ml-1  p-1 hover:dark:text-zinc-400 hover:-translate-y-2 hover:duration-500 hover:text-gray-800/95 cursor-pointer ">
-                  <a href="https://www.facebook.com/abdelfattah.waleedasf?mibextid=ZbWKwL">
+                  <a href="https://www.facebook.com/profile.php?id=100094387431151&mibextid=ZbWKwL">
                     <FacebookRoundedIcon />
                   </a>
                 </li>
