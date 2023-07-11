@@ -1,13 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+
+  font-family: "Mulish", sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.centerT {
+  transform: translateY(-50%) !important;
+}
+@media only screen and (min-width: 1024px) {
+  .allpage {
+    margin-left: 248.812px;
+  }
+}
+.aaa {
+  background-image: url("./imgs/WhatsApp\ Image\ 2023-07-07\ at\ 00.29.12.jpg");
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+  animation: morph 8s ease-in-out 1s infinite;
+  background-blend-mode: multiply;
+  box-shadow: inset 0 0 0 9px hsla(0, 0%, 100%, 0.3);
+  border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  overflow: hidden;
+}
+@keyframes morph {
+  0% {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+
+  50% {
+    border-radius: 30% 60% 70% 40%/50% 60% 30% 60%;
+  }
+
+  to {
+    border-radius: 60% 40% 30% 70%/60% 30% 70% 40%;
+  }
+}
+.map-container {
+  height: 400px;
+}
+.visibles {
+  visibility: inherit;
+}
+.mapboxgl-ctrl-attrib-inner {
+  display: none;
+}
+.mapboxgl-canvas {
+  width: 100% !important;
+}
+
+.btn-scrollTop {
+  position: fixed;
+  bottom: 40px;
+
+  z-index: 1;
+  cursor: pointer;
+
+  border: none;
+  opacity: 0.7;
+}
+
+.btn:hover.icon {
+  margin-bottom: 10px;
 }
