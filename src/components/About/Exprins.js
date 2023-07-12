@@ -50,7 +50,7 @@ function Exprins() {
                     Not yet
                   </h1>
                   <span className=" text-sm font-Mulish text-gray-600/90 dark:text-gray-400">
-                    bluid wed site
+                    Build websites
                   </span>
                 </div>
               </li>
