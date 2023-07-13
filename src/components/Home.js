@@ -65,7 +65,7 @@ function Home() {
                   </a>
                 </li>
                 <li className="dark:text-slate-50 ml-1  p-1 hover:duration-500 hover:-translate-y-2 hover:dark:text-zinc-400 hover:text-gray-800/95 cursor-pointer ">
-                  <a href="https://www.linkedin.com/in/abdelfattah-waleed-71218a257">
+                  <a href="https://www.linkedin.com/in/abdelfattah-walead-71218a257">
                     <LinkedInIcon />
                   </a>
                 </li>
