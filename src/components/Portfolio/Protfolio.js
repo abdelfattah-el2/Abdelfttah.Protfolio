@@ -28,12 +28,14 @@ function Portfolio() {
                     className="max-w-full  dark:bg-neutral-200/50 bg-black/20   overflow-hidden p-2 "
                     key={e.id}
                   >
-                    <img
-                      className=" min-w-full   max-w-full  shadow-md  dark:shadow-slate-500/20 duration-700  "
-                      src={require(`../../${e.img}`)}
-                      alt={e.name}
-                      style={{ position: "" }}
-                    />
+                    <a href={e.link}>
+                      <img
+                        className=" min-w-full   max-w-full  shadow-md  dark:shadow-slate-500/20 duration-700  "
+                        src={require(`../../${e.img}`)}
+                        alt={e.name}
+                        style={{ position: "" }}
+                      />
+                    </a>
                     <a
                       href={e.link}
                       className="   font-medium  border  dark:bg-neutral-900/95  dark:text-white dark:border-gray-600 duration-700 border-neutral-300/90 shadow-md  dark:shadow-slate-500/20   bg-slate-50 p-4  flex  justify-between items-center"
