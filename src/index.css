@@ -80,3 +80,6 @@ code {
 .btn:hover.icon {
   margin-bottom: 10px;
 }
+.no{
+   position: inherit !important;
+}

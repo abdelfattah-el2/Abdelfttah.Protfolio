@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Title from "../global/Title";
 import { PortfolioData } from "../../data";
+import OpenInNewRoundedIcon from "@mui/icons-material/OpenInNewRounded";
 
 function Portfolio() {
   const [right, setRight] = useState(false);
@@ -24,15 +25,23 @@ function Portfolio() {
               {PortfolioData.mywork.map((e) => {
                 return (
                   <div
-                    className="max-w-full  dark:bg-neutral-200/50 bg-black/20 relative  overflow-hidden p-2 "
+                    className="max-w-full  dark:bg-neutral-200/50 bg-black/20   overflow-hidden p-2 "
                     key={e.id}
                   >
-                    <a href={`${e.link}`} className="  ">
-                      <img
-                        className=" min-w-full max-w-full hover:scale-110 shadow-md  dark:shadow-slate-500/20 duration-700   "
-                        src={require(`../../${e.img}`)}
-                        alt={e.name}
-                      />
+                    <img
+                      className=" min-w-full   max-w-full  shadow-md  dark:shadow-slate-500/20 duration-700  "
+                      src={require(`../../${e.img}`)}
+                      alt={e.name}
+                      style={{ position: "" }}
+                    />
+                    <a
+                      href={e.link}
+                      className="   font-medium  border  dark:bg-neutral-900/95  dark:text-white dark:border-gray-600 duration-700 border-neutral-300/90 shadow-md  dark:shadow-slate-500/20   bg-slate-50 p-4  flex  justify-between items-center"
+                    >
+                      <button className=" font-Mulish ">Open</button>
+                      <span className="ml-2 ">
+                        <OpenInNewRoundedIcon fontSize="small" />
+                      </span>
                     </a>
                   </div>
                 );
