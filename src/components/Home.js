@@ -44,7 +44,7 @@ function Home() {
             </h2>
             <p className="p-3   font-medium text-gray-600 dark:text-gray-400  tracking-tight">
               {" "}
-              Programmer based in Alexandria Love Bluid websites and developing
+              Programmer based in Alexandria Love Build websites and developing
               them with React .
             </p>
             <div>
