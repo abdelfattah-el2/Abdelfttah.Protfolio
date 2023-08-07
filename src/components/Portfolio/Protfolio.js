@@ -41,6 +41,9 @@ function Portfolio() {
                       className="   font-medium  border  dark:bg-neutral-900/95  dark:text-white dark:border-gray-600 duration-700 border-neutral-300/90 shadow-md  dark:shadow-slate-500/20   bg-slate-50 p-4  flex  justify-between items-center"
                     >
                       <button className=" font-Mulish ">Open</button>
+                      <p className=" text-sm sm:text-base text-center">
+                        {e.name}
+                      </p>
                       <span className="ml-2 ">
                         <OpenInNewRoundedIcon fontSize="small" />
                       </span>

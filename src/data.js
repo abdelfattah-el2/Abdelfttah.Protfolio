@@ -79,6 +79,7 @@ export let WhatIDo = {
   ],
 };
 
+//  PortfolioDat page
 export let PortfolioData = {
   mywork: [
     {
@@ -116,6 +117,12 @@ export let PortfolioData = {
       name: "Admin Page Dasborad",
       img: "imgs/imgPortfolio/Screenshot (8).png",
       link:"https://adminpagedasborad.netlify.app/"
+    },
+    {
+      id: 7,
+      name: "Small Project for Applying Redux ",
+      img: "imgs/imgPortfolio/Screenshot 2023-08-08 004302.png",
+      link:"https://small-project-nu.vercel.app/basket"
     },
   ],
 };
