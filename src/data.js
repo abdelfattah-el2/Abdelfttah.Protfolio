@@ -26,7 +26,7 @@ export let AboutSkills = {
     { id: "J3", name: "Japanese", SkillRate: "45%" },
   ],
 };
-
+// About page Knowledge data
 export let Knowledgeinfo = {
   Knowledge: [
     {
@@ -48,6 +48,8 @@ export let Knowledgeinfo = {
     { id: "5r", name: "React router" },
     { id: "6r", name: "React redux,Redux Toolkit" },
     { id: "7r", name: "React " },
+    { id: "8r", name: "vite " },
+    { id: "8v", name: "Next.js" },
   ],
   Interests: [
     { id: "1u", name: " UI/UX Design" },
@@ -57,6 +59,8 @@ export let Knowledgeinfo = {
     { id: "5c", name: "Custom Website " },
     { id: "6l", name: "Learn new things" },
     { id: "7v", name: "Volunteer work" },
+    { id: "8v", name: "Love of research" },
+    { id: "9v", name: "Always open to learning" },
   ],
 };
 
@@ -92,37 +96,37 @@ export let PortfolioData = {
       id: 2,
       name: "My-Store",
       img: "imgs/imgPortfolio/Screenshot (4).png",
-      link:"https://my-store-app1.netlify.app/"
+      link: "https://my-store-app1.netlify.app/",
     },
     {
       id: 3,
       name: "Portfolio",
       img: "imgs/imgPortfolio/Screenshot (5).png",
-      link:"https://abdelfattah-el2.github.io/the-third-templet-3/"
+      link: "https://abdelfattah-el2.github.io/the-third-templet-3/",
     },
     {
       id: 4,
       name: "Web App",
       img: "imgs/imgPortfolio/Screenshot (6).png",
-      link:"https://abdelfattah-el2.github.io/the-two-temlept/"
+      link: "https://abdelfattah-el2.github.io/the-two-temlept/",
     },
     {
       id: 5,
       name: "Web App",
       img: "imgs/imgPortfolio/Screenshot (7).png",
-      link:"https://abdelfattah-el2.github.io/the-learn_css_html/"
+      link: "https://abdelfattah-el2.github.io/the-learn_css_html/",
     },
     {
       id: 6,
       name: "Admin Page Dasborad",
       img: "imgs/imgPortfolio/Screenshot (8).png",
-      link:"https://adminpagedasborad.netlify.app/"
+      link: "https://adminpagedasborad.netlify.app/",
     },
     {
       id: 7,
       name: "Small Project for Applying Redux ",
       img: "imgs/imgPortfolio/Screenshot 2023-08-08 004302.png",
-      link:"https://small-project-nu.vercel.app/basket"
+      link: "https://small-project-nu.vercel.app/basket",
     },
   ],
 };
