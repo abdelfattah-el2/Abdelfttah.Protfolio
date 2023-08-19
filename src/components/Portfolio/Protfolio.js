@@ -46,7 +46,7 @@ function Portfolio() {
                       <button className=" font-Mulish mr-3 ">Open <OpenInNewIcon fontSize="small" /></button>
                     
                     </a> 
-                    {e.name}
+                     
                     <Link className=" hover:translate-x-3 duration-700 " to={`/Portfolio/${e.id}`}>
                       <span className="ml-2 ">
                         <span className=" mr-1"> Details</span>
