@@ -12,6 +12,7 @@ import Portfolio from "./components/Portfolio/Protfolio";
 import Contact from "./components/Contact/Contact";
 import ScrollToTop from "./components/global/scrolltop";
 import ScrollStartTop from "./components/function/topThepage";
+import DetailsPage from "./components/Portfolio/Details";
 
 function App() {
   const [theme, setTheme] = useState("light");
@@ -43,16 +44,16 @@ function App() {
       <div
         onClick={handleThemeSwitch}
         className=" 
-         w-fit lg:p-1 rounded-full z-50 cursor-pointer
+        w-fit lg:p-1 rounded-full z-50 cursor-pointer
           absolute lg:fixed lg:top-1/2 lg:right-2 centerT 
           top-7  right-12 dark:bg-gray-600/80 lg:dark:bg-transparent lg:bg-transparent  bg-gray-300/80 
             lg:after:w-96 
           lg:after:dark:bg-gray-600/90
           lg:after:bg-gray-300/90 
-           lg:after:rounded-l-full 
-           lg:after:fixed
-           lg:after:h-full lg:after:-z-50 
-           lg:after:left-0 lg:after:top-0"
+          lg:after:rounded-l-full 
+          lg:after:fixed
+          lg:after:h-full lg:after:-z-50 
+          lg:after:left-0 lg:after:top-0"
       >
         <IconButton onClick={handleThemeSwitch}>
           {theme === "light" ? (
@@ -64,13 +65,14 @@ function App() {
       </div>
       <Navbars />
       <ScrollToTop isVisible={isVisible} />
-      <div   className="  allpage  dark:bg-neutral-900 bg-stone-100   ">
+      <div className="  allpage  dark:bg-neutral-900 bg-stone-100   ">
         <ScrollStartTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/service" element={<Service />} />
           <Route path="/Portfolio" element={<Portfolio />} />
+          <Route path="/Portfolio/:detailId" element={<DetailsPage />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

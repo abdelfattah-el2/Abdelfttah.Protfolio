@@ -20,6 +20,7 @@ function Navbars() {
 
   //Javascript split method to get the name of the path in array
   const splitLocation = pathname.split("/");
+  const splitLocationPortfolio = pathname.split("/Portfolio/");
 
   return (
     <>
@@ -158,7 +159,7 @@ function Navbars() {
               </li>
               <li
                 className={
-                  splitLocation[1] === "portfolio"
+                  splitLocation[1] === "portfolio" || typeof splitLocationPortfolio[1] === "string"
                     ? " dark:text-slate-50 ml-2  p-3"
                     : " dark:text-slate-300/75 text-zinc-700/80 p-3 hover:tracking-wider hover:duration-300 hover:ml-2"
                 }
