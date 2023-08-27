@@ -267,5 +267,30 @@ export let PortfolioData = {
         },
       ],
     },
+    {
+      id: 8,
+      name: "From",
+      img: "imgs/imgPortfolio/from.png",
+      link: "https://form-alpha-nine.vercel.app/",
+      title: "It's a simple login form using React and Yup.",
+      description:
+        "It was a fun project, and I learned a lot from it. It wasn't very long, but I gained valuable insights from it.",
+      technology: [
+        "JavaScript",
+        "React.js",
+        "GitHub",
+        "TailwindCss",
+        "vercel",
+        "Yup",
+        "react-toastify",
+      ],
+      date: " Sep 27 , 2023",
+      more: [
+        {
+          open: "https://form-alpha-nine.vercel.app/",
+          source: "https://github.com/abdelfattah-el2/form",
+        },
+      ],
+    },
   ],
 };
