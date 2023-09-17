@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Skills from "./Skills";
-import AbdefattahCV from "../../AbdelfattahCV.pdf";
+import AbdefattahCV from "../../Abdelfattah.Cv.pdf.pdf";
 import Knowledge from "./Knowlede";
 import Exprins from "./Exprins";
 import Title from "../global/Title";
